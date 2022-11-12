@@ -1,0 +1,39 @@
+section {
+  padding: 80px 0;
+}
+.about_me .container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.left img {
+  width: 100%;
+}
+
+.right {
+  text-align: center;
+  background: #e4dfdb;
+  /* height: 100%; */
+  padding: 40px;
+}
+
+.right h3 {
+  margin: 20px 0 25px 0;
+  font-weight: 800;
+  color: #000;
+}
+
+.about_me .right h1,
+.about_me .right p {
+  color: #000;
+}
+
+/* Responsive part  */
+
+@media (max-width: 768px) {
+  .about_me .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
