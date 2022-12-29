@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-For live preview click here [Go Live](https://iamahsan512.github.io/about).
+For live preview click here [Go Live](https://ahsanwebengr.github.io/).
 
 ## Available Scripts
 
